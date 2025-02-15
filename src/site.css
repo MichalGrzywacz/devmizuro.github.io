@@ -1,0 +1,43 @@
+html, body {
+    height: 100%;
+}
+.container {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.main {
+    flex: 1;
+}
+
+h2,h3{
+    margin-bottom: 30px;
+}
+
+.uppercase{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#home .logo{
+    min-height: 80px;
+    height: 80px;
+    max-height: 80px;
+    margin-bottom:40px;
+}
+
+header li{
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+a {
+    color: inherit; /* Inherits text color from the parent element */
+    text-decoration: none; /* Removes underline */
+}
+
+a:hover, a:focus {
+    color: inherit; /* Keeps the color the same on hover and focus */
+    text-decoration: none; /* Ensures no underline appears on hover */
+    font-weight: bolder;
+}

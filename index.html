@@ -1,43 +1,143 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Devmizuro - Your #1 place to find help in leveraging IT in your business. Offering IT consulting, software development, and training services.">
+    <meta name="keywords" content="Devmizuro, IT consulting, software development, training, business solutions, IT services">
+    <meta name="author" content="Michał Grzywacz">
+    <meta property="og:title" content="Devmizuro">
+    <meta property="og:description" content="Your #1 place to find help in leveraging IT in your business. Offering IT consulting, software development, and training services.">
+    <meta property="og:image" content="https://www.devmizuro.com/images/devmizuro-kolor-01.svg">
+    <meta property="og:url" content="https://www.devmizuro.com">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Devmizuro">
+    <meta name="twitter:description" content="Your #1 place to find help in leveraging IT in your business. Offering IT consulting, software development, and training services.">
+    <meta name="twitter:image" content="https://www.devmizuro.com/images/devmizuro-kolor-01.svg">
+    
     <title>Devmizuro</title>
-    <link rel="stylesheet" href="styles.css">
+
+    <link href="./src/bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./src/bootstrap-icons-1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="./src/site.css" rel="stylesheet">
+
 </head>
 <body>
-    <header>
-        <h1>Welcome to Devmizuro</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="home">
-            <h2>Home</h2>
-            <p>Welcome to Devmizuro, your go-to source for web development solutions.</p>
-        </section>
-        <section id="about">
-            <h2>About</h2>
-            <p>Learn more about our mission and values.</p>
-        </section>
-        <section id="services">
-            <h2>Services</h2>
-            <p>Discover the range of services we offer to help your business grow.</p>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Get in touch with us for more information.</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 Devmizuro. All rights reserved.</p>
-    </footer>
+    <script src="./src/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+        
+    <div class="container"> 
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom fixed-top bg-white">
+            <div class="col-md-3 mb-2 mb-md-0">              
+            </div>
+            
+            <div class="col-12 col-md-auto mb-2 justify-content-center mb-md-0 text-center">
+                <a href="/" class="d-block mx-auto">
+                    <img src="./images/devmizuro-kolor-01.svg" alt="Devmizuro" style="max-height: 40px; display: block; margin: 0 auto;">
+                </a>
+                <ul class="nav text-body-emphasis decoration-none justify-content-center">
+                    <li><a href="#home" class="nav-link px-2 link-secondary">Home</a></li>
+                    <li><a href="#about" class="nav-link px-2 link-secondary">About</a></li>
+                    <li><a href="#services" class="nav-link px-2 link-secondary">Services</a></li>
+                    <li><a href="#contact" class="nav-link px-2 link-secondary">Contact</a></li>
+                </ul>
+            </div>      
+    
+            <div class="col-md-3">
+            </div>
+        </header>
+        <main class="main">
+            <section id="home" class="row" style="margin-top: 100px;">
+                <div class="px-4 py-5 my-5 text-center">
+                    <h2>Welcome to </h2>
+                    <!--<h1 class="display-5 fw-bold text-body-emphasis" >Devmizuro</h1>-->
+                    <img src="./images/devmizuro-kolor-01.svg" alt="Devmizuro" class="logo">
+                    <h3>Your #1 place to find help in leveraging IT in your business</h3>
+                  </div>
+            </section>
+            <section id="about" class="row">
+                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                    <div class="col-10 col-sm-8 col-lg-6">
+                      <img src="./images/laptop.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                    </div>
+                    <div class="col-lg-6">
+                      <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-5">
+                        Hi, nice to meet you! <i class="bi bi-person-raised-hand"></i>
+                        </h1>
+                      <p class="lead">
+                        I'm Michal, a software engineer with a passion for software development. I have been working in the industry for over 10 years and have helped many businesses grow by leveraging IT in their operations.
+                      </p>
+                      <p class="lead">
+                        I have variety of experience in different business industries such as financial institutions, automotive, e-commerce and many more.
+                      </p>
+                      <p class="lead">
+                        In my projects I use the latest technologies and best practices to deliver the best results for my clients. I worked with both frontend and backend technologies such as <b>Vue.js, JS + CSS + HTML, .Net, SQL, Azure</b> and many more.
+                      </p>
+                    </div>
+                  </div>
+            </section>
+            <section id="services" class="row">
+                <div class="px-4 py-5 my-5 text-center">
+                    <img class="d-block mx-auto mb-4" src="./src/bootstrap-icons-1.11.3/stack.svg" alt="" width="72" height="57">
+                    <h1 class="display-5 fw-bold text-body-emphasis mb-5">How can I help you?</h1>
+                    <div class="col-lg-6 mx-auto">
+                      <h3 class="mb-3">Among services I offer are:</h3>
+                      <div class="list-group list-group-radio d-grid gap-2 border-0">
+                        <div class="position-relative">
+                          <label class="list-group-item py-3 pe-5" for="listGroupRadioGrid1">
+                            <strong class="fw-semibold uppercase">It consulting</strong>
+                            <span class="d-block small opacity-75">
+                                Design the solution suitable for your needs
+                            </span>
+                          </label>
+                        </div>
+                    
+                        <div class="position-relative">
+                            <label class="list-group-item py-3 pe-5" for="listGroupRadioGrid1">
+                              <strong class="fw-semibold uppercase">Software development</strong>
+                              <span class="d-block small opacity-75">
+                                Reliabe and scalable software solutions at highest quality
+                              </span>
+                            </label>
+                        </div>
+                    
+                        <div class="position-relative">
+                            <label class="list-group-item py-3 pe-5" for="listGroupRadioGrid1">
+                              <strong class="fw-semibold uppercase">Training</strong>
+                              <span class="d-block small opacity-75">
+                                Let's work together to improve your team's skills
+                              </span>
+                            </label>
+                        </div>
+                    
+                      </div>
+                    </div>
+                  </div>
+            </section>
+            <section id="contact" class="row align-items-center g-lg-5 py-5">
+                <div class="col-lg-7 text-center text-lg-start">
+                  <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-5">Let's talk <i class="bi bi-chat"></i></h1>
+                  <p class="col-lg-10 fs-4">
+                    If you are interested in my services or have any questions, feel free to contact me. I will be happy to help you.
+                  </p>
+                </div>
+                <div class="col-md-10 mx-auto col-lg-5">
+                    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                          <h3 class="mb-4">You can find me:</h3>
+                          <div class="mb-2 text-muted"><i class="bi bi-envelope-at"></i> <a href="mailto:devmizuro@gmail.com">devmizuro@gmail.com</a>
+
+                          </div>
+                          <div class="mb-1 text-muted"><i class="bi bi-linkedin"></i> <a href="https://www.linkedin.com/in/michał-grzywacz-84271170" target="_blank">Michał Grzywacz</a>
+
+                          </div>
+                        </div>
+                      </div>
+                </div>
+              </div>
+        </main>
+        <footer class="footer bg-light text-center py-3">
+            <p>&copy; 2025 Devmizuro. All rights reserved.</p>
+        </footer>
+    </div>
 </body>
 </html>
